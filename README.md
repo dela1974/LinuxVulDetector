@@ -4,7 +4,8 @@ Binary code similarity detection gives a general idea how two binaries are simil
 We would like to extract directly from binary code various robust platform-independent features for each node in the control flow graph to represent a function. Then, to conduct a binary code similarity detection, a graph matching algorithm is used to check whether two functions' Control flow graph representations are similar.In order to achieve such a goal, we associate the use of deep learning and neural networks.
 Our project will be drawing on some of the ideas in "Gemini" and improving them. We will face many new challenges. For example, in the "Gemini", they solve the vulnerability detection problem for IoT firmware, instead, our project mainly focuses on more complex kernel problem. In addition, we will conduct vulnerability analysis based on potential multiple-function instead of single function. Further, kernel CVEs from 2018 to 2019 (tentative) will be used for building our vulnerability database. Finally, the high-precision model after training is obtained. Our idea is to solve the problem of vulnerability analysis of the existing kernel and provide analysis and report of specific vulnerability.
 
-Project is so large and I upload in the google drive.
+Project is so large and I upload in the google drive. This is the link:
+- https://drive.google.com/open?id=10e1iTR94cmv2uIQyccr37YRCXmpql_2s
 
 # Approach
 Our work will be based on “Gemini” by Xiaojun et al. “Gemini” will be improved for kernel specific task. All kernel vulnerabilities from 2018 to 2019 will be collected as our training and test dataset (80%/20%). 
